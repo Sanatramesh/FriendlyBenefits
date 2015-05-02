@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#CCFFCC"
+    tools:context="info.androidhive.loginandregistration.AskForFav">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Offer Favour"
+        android:id="@+id/button"
+        android:layout_marginTop="306dp"
+        android:layout_below="@+id/eta"
+        android:background="#66CCFF"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="time"
+        android:ems="10"
+        android:id="@+id/eta"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="61dp"
+        android:text="Leaving time" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="time"
+        android:ems="10"
+        android:id="@+id/etd"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:text="Return time" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:id="@+id/eda"
+        android:layout_below="@+id/eta"
+        android:layout_alignLeft="@+id/eta"
+        android:layout_alignStart="@+id/eta"
+        android:layout_marginTop="42dp"
+        android:text="Leaving date" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:id="@+id/edd"
+        android:layout_below="@+id/etd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:text="Return date" />
+
+</RelativeLayout>

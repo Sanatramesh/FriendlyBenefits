@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="info.androidhive.loginandregistration"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <android:uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+
+    <application
+        android:name="info.androidhive.loginandregistration.app.AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="Friendly Benefits"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="info.androidhive.loginandregistration.LoginActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="adjustPan" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="info.androidhive.loginandregistration.RegisterActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="info.androidhive.loginandregistration.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="info.androidhive.loginandregistration.app.OwedFavours"
+            android:label="@string/title_activity_owed_favours" >
+        </activity>
+        <activity
+            android:name="info.androidhive.loginandregistration.DisplayFav"
+            android:label="@string/title_activity_display_fav" >
+        </activity>
+        <activity
+            android:name="info.androidhive.loginandregistration.DispIndFav"
+            android:label="@string/title_activity_disp_ind_fav" >
+        </activity>
+        <activity
+            android:name="info.androidhive.loginandregistration.ExpandableListView"
+            android:label="@string/title_activity_expandable_list_view" >
+        </activity>
+        <activity
+            android:name="info.androidhive.loginandregistration.DispIndFav2"
+            android:label="@string/title_activity_disp_ind_fav2" >
+        </activity>
+        <activity
+            android:name="info.androidhive.loginandregistration.AskForFav"
+            android:label="@string/title_activity_ask_for_fav" >
+        </activity>
+        <activity
+            android:name="info.androidhive.loginandregistration.DisplayFavOwing"
+            android:label="@string/title_activity_display_fav_owing" >
+        </activity>
+        <activity
+            android:name="info.androidhive.loginandregistration.OfferFav"
+            android:label="@string/title_activity_offer_fav" >
+        </activity>
+        <activity
+            android:name="info.androidhive.loginandregistration.DisplayGivers"
+            android:label="@string/title_activity_display_givers" >
+        </activity>
+        <activity
+            android:name="info.androidhive.loginandregistration.DispIndFav1"
+            android:label="@string/title_activity_disp_ind_fav1" >
+        </activity>
+        <activity
+            android:name="info.androidhive.loginandregistration.StopFav"
+            android:label="@string/title_activity_stop_fav" >
+        </activity>
+    </application>
+
+</manifest>

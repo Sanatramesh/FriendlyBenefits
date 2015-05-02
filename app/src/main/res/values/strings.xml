@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Friendly Benefits</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registered! Login here.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+    <string name="title_activity_owed_favours">OwedFavours</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_display_fav">DisplayFav</string>
+    <string name="title_activity_disp_ind_fav">DispIndFav</string>
+    <string name="title_activity_expandable_list_view">ExpandableListView</string>
+    <string name="title_activity_disp_ind_fav2">DispIndFav2</string>
+    <string name="title_activity_ask_for_fav">AskForFav</string>
+    <string name="title_activity_display_fav_owing">DisplayFavOwing</string>
+    <string name="title_activity_offer_fav">OfferFav</string>
+    <string name="title_activity_display_givers">DisplayGivers</string>
+    <string name="title_activity_disp_ind_fav1">DispIndFav1</string>
+    <string name="title_activity_stop_fav">StopFav</string>
+
+</resources>
